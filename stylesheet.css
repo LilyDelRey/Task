@@ -1,0 +1,151 @@
+.container{
+    background-color: #DEE4E4;
+    margin: 0 auto;
+    font-family: "Times New Roman";
+}
+.header{
+    width: 100%;
+    background-color: #112F4D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: "Times New Roman";
+    margin-bottom: 5vh;
+}
+.header h1{
+    margin-bottom: 5vh;
+}
+    
+.nav{
+background-color: #4BA0A4;
+display: inline-block;
+padding: 15px 5px;
+width: 17%;
+margin: 0 auto;
+font-size: 20px;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 5px;
+}
+.title{
+    background-color: #62D1A2;
+    text-align: center;
+    color: white;
+    margin-bottom: 5vh;
+    padding: 10px;
+}
+
+.first{
+    text-align: right;
+    font-size: 38px;
+    padding: 6vh;
+    margin-bottom: 5vh;
+}
+.second{
+    text-align: center;
+    padding: 4vh;
+    font-size: 25px;
+    margin-bottom: 5vh;
+}
+.second img{
+    width: 24vw;
+    margin-bottom: 3vh;
+}
+.second .big_image{
+    width: 100%;
+    margin-top: 7vh;
+}
+.second_set img{
+height: 65vh;
+width: 30vw;
+margin: 0 auto;
+margin-top: 5vh;
+}
+.third{
+    padding: 5vh;
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 25px;
+}
+.third img{
+height: 38vh;
+margin-left: 0;
+margin-right: auto;
+}
+
+.seed{
+    float: left;
+    position: relative;
+}
+.info{
+    font-size: 40px;
+    text-align: right;
+}
+.title2{
+    background-color: #62D1A2;
+    text-align: center;
+    color: white;
+    padding: 3vh;  
+}
+iframe{
+    margin: 7vh 2vw;
+}
+.fifth{
+    margin-top: 5vh;
+    padding: 8vh 3vw;
+    margin-bottom: 5vh;
+}
+#div1, #div2, #div3, #div4{
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0;
+    display: inline-block;
+}
+.drag, .fill-in, .choice{
+    text-align: right;
+    font-size: 20px;
+    padding: 5vh;
+    margin-top: 5vh;
+}
+.fill-in input{
+    margin-top: 5vh;
+}
+.drag img{
+    margin-top: 5vh;
+}
+.drag div{
+    text-align: center;
+    border: 1px solid black;
+}
+.mult{
+    margin: 2vh auto;
+    font-size: 25px;
+    display: inline-block;
+    border: 2px solid #C3C9C9;
+    padding: 2vh;
+}
+.checkbox{
+    cursor: pointer;
+}
+.choice p{
+    margin: 5vh auto;
+}
+body{
+    overflow-x: hidden;
+}
+.footer{
+    background-color: #112F4D;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5vh;
+    padding: 2vh;
+}

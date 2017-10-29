@@ -16,9 +16,9 @@
     <div class="header">
         <h1>Reproduction by Seeds التكاثر بالبذور</h1>
         <ul class="nav">
-           <li>القسم 2</li>
-           <li>القسم 1</li> 
-           <li>البداية</li> 
+           <li> <a href="#sec2"> القسم 2 </a></li>
+           <li> <a href="#sec1"> القسم 1 </a></li> 
+           <li> <a href="#begin"> البداية </a></li> 
         </ul>
     </div>
     <div class="container title">
@@ -29,7 +29,7 @@
         </div>
     </div>
     <section>
-        <div class="container first">
+        <div class="container first" id="begin">
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <p>أنواع كثيرة من النباتات تُنتِج البذور أثناء التكاثر الجنسي. والبذرة عبارة عن تركيب يحتوي على جنين نباتي
@@ -51,7 +51,7 @@
         </div>
     </section>
     <section>
-        <div class="container second">
+        <div class="container second" id="sec1">
             <div class="row">
                 <div class="col-md-4 col-xs-12">
                     <!-- just the link you click on to trigger the modal -->
@@ -113,7 +113,7 @@
     </section>
 
     <section>
-        <div class="container third">
+        <div class="container third" id="sec2">
             <div class="row">
                 <div class="col-md-12">
                     <div class="seed">
@@ -172,6 +172,7 @@
             <div class="row">
                 <div class="col-md-12 drag">
                     <h2>Drag and Drop</h2>
+                    <form>
                     <p>على عكس الحزازيات والسرخسيات، لا تُكوِّن الجراثيم نباتات مشيجية، بل تنتج مباشرة-
                         <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> أو
                         <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -183,8 +184,11 @@
                         <img id="drag1" src="Images/first-ans.png" draggable="true" ondragstart="drag(event)" height="48">
                         <img id="drag2" src="Images/second-ans.png" draggable="true" ondragstart="drag(event)" height="48">
                         <img id="drag3" src="Images/third-ans.png" draggable="true" ondragstart="drag(event)" height="48">
-                        <img id="drag4" src="Images/forth-ans.png" draggable="true" ondragstart="drag(event)" height="48">
+                        <img id="drag4" src="Images/forth-ans.png" draggable="true" ondragstart="drag(event)" height="48"><br><br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
                     </p>
+                    </form>
                 </div>
             </div>
         </div>
@@ -200,17 +204,25 @@
                         تقوم خلايا معيَّنة ...... المجموعة الكروموسومية من المخاريط الذكرية بإنتاج جراثيم ذكرية دقيقة أحادية المجموعة الكروموسومية
                         بواسطة الانقسام الميوزي
                         <br>
-                        <label for="first" class="mult checkbox">أحادية</label>
-                        <input type="radio" name="multiple-choice" value="first">
-                        <label for="second" class="mult">ثنائية</label>
-                        <input type="radio" name="multiple-choice" value="second">
-                        <br>
-                        <label for="third" class="mult">ثلاثية</label>
-                        <input type="radio" name="multiple-choice" value="third">
-                        <label for="forth" class="mult">رباعية</label>
-                        <input type="radio" name="multiple-choice" value="forth"><br>
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
+                           <div class="mult">
+                                <input type="radio" name="multiple-choice" value="first" id="first">
+                                <label for="first">a) أحادية</label>
+                           </div>
+                           <div class="mult">
+                                <input type="radio" name="multiple-choice" value="second" id="second">
+                                <label for="second">b) ثنائية</label>
+                           </div>
+                             <br>
+                           <div class="mult">
+                                <input type="radio" name="multiple-choice" value="third" id="third">
+                                <label for="third">c) ثلاثية</label>
+                           </div>
+                           <div class="mult">
+                                <input type="radio" name="multiple-choice" value="forth" id="forth">
+                                <label for="forth">d) رباعية</label>
+                           </div><br>
+                             <input type="submit" value="Submit">
+                             <input type="reset" value="Reset">
                         </p>
                      </form>
                 </div>

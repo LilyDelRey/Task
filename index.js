@@ -14,11 +14,11 @@ function drop(ev) {
     ev.target.appendChild(document.getElementById(data));
 }
 
-$('.nav > li').hover(function(){
-    $(this).parent().css('background-color', '#62D1A2');
+$('a').hover(function(){
+ $(this).css('background-color', '#62D1A2');
 });
-$('.nav > li').mouseout(function(){
-    $(this).parent().css('background-color', '#4BA0A4');
+$('a').mouseout(function(){
+    $(this).css('background-color', '#4BA0A4');
 });
 
 $(function  () {

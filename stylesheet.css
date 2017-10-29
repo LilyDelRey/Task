@@ -147,3 +147,17 @@ body{
     margin-top: 5vh;
     padding: 2vh;
 }
+@media screen and (max-width: 600px){
+    .second img, .third img{
+        width: 100%;
+    }
+    .first p, .third p{
+        font-size: 30px;
+    }
+    iframe{
+        width: 100%;
+    }
+    .header ul{
+        width: 50%;
+    }
+}

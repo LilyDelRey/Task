@@ -171,6 +171,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 drag">
+                    <h2>Drag and Drop</h2>
                     <p>على عكس الحزازيات والسرخسيات، لا تُكوِّن الجراثيم نباتات مشيجية، بل تنتج مباشرة-
                         <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div> أو
                         <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
@@ -194,6 +195,7 @@
         <div class="container choice">
             <div class="row">
                 <div class="col-md-12">
+                    <h2>Multiple Choice</h2>
                      <form> <p>
                         تقوم خلايا معيَّنة ...... المجموعة الكروموسومية من المخاريط الذكرية بإنتاج جراثيم ذكرية دقيقة أحادية المجموعة الكروموسومية
                         بواسطة الانقسام الميوزي
@@ -219,6 +221,7 @@
         <div class="container fill-in">
             <div class="row">
                 <div class="col-md-12">
+                    <h2>Fill in the Blank</h2>
                     <form>
                         تقوم خلايا معيَّنة
                         <select>
@@ -236,6 +239,29 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="container order">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Put in the Right Order</h2>
+                    <form>
+                         تقوم خلايا معيَّنة
+                         ثنائية المجموعة الكروموسومية من المخاريط الذكرية بإنتاج 
+                        <ul class="sort">
+                            <li value="one">أحادية</li>
+                            <li value="two">ذكرية</li>
+                            <li value="three">دقيقة</li>
+                            <li value="four">جراثيم</li>
+                        </ul>   ذكرية دقيقة أحادية المجموعة الكروموسومية
+                        بواسطة الانقسام الميوزي
+                        <br><input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <div class="footer">
     <p>جميع الحقوق محفوظة لمركز البحوث التربوية</p>
 </div>
@@ -244,6 +270,7 @@
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="index.js" type="text/javascript"></script>
+    <script src="js/sortable.js" type="text/javascript"></script>
    
 </body>
 

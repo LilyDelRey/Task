@@ -20,3 +20,7 @@ $('.nav > li').hover(function(){
 $('.nav > li').mouseout(function(){
     $(this).parent().css('background-color', '#4BA0A4');
 });
+
+$(function  () {
+    $("ul.sort").sortable();
+  });
